@@ -24,3 +24,13 @@ function destructivelyRemoveLastKitten(){
   kittens.shift()
   return kittens
 }
+function removeLastKitten(){
+  var newKittens = [...kittens]
+  newKittens.pop()
+  return newKittens
+}
+ function removeFirstKitten(){
+  var newKittens = [...kittens]
+  newKittens.shift()
+  return newKittens
+}
